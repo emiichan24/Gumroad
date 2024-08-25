@@ -1,0 +1,35 @@
+/* app/components/CustomCarousel.css */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-items {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel-counter {
+  text-align: center;
+  margin-top: 8px;
+}

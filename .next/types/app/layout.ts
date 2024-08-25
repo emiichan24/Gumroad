@@ -1,4 +1,4 @@
-// File: /Volumes/Emii_HD/Cursor_Projects/Gumroad_Project/recently_viewed_section/app/layout.js
+// File: /Users/emiitaylor/Desktop/Gumroad_Project/recently_viewed_section/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
