@@ -6,6 +6,8 @@ import Card from './Card'; // Adjust the path if necessary
 
 const CustomCarousel = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const cardWidth = 300; // Width of each card
+  const totalWidth = items.length * cardWidth; // Total width of all cards
 
   return (
     <div className="relative w-full overflow-hidden">
@@ -27,9 +29,9 @@ const CustomCarousel = ({ items }) => {
         </button>
       </div>
       <div className="flex overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
-        <div className="flex transition-transform duration-300" style={{ transform: `translateX(-${currentIndex * 75}%)` }}>
+        <div className="flex transition-transform duration-300" style={{ transform: `translateX(-${currentIndex * (100 / items.length)}%)`, width: `${totalWidth}px` }}>
           {items.map((item, index) => (
-            <div className="w-[300px] flex-shrink-0" key={index} style={{ marginRight: '1.5rem' }}>
+            <div className="w-[300px] flex-shrink-0" key={index} style={{ marginRight: index === items.length - 1 ? '0' : '1.5rem' }}>
               <Card {...item} />
             </div>
           ))}
