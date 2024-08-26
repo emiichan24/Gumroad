@@ -6,14 +6,6 @@ import CustomCarousel from '../components/CustomCarousel'; // Adjust the path if
 export default function Home() {
   const items = [
     { 
-      title: 'Shirou Ogami Savage Ver. 3D Print kit', 
-      price: '$30+', 
-      rating: '5.0 (6)', 
-      imageSrc: 'https://public-files.gumroad.com/6ks36p1c91akidmh7m5xsutb31ug',
-      creatorName: 'Manuel De Jorge',
-      profileImage: 'https://public-files.gumroad.com/jl59qzeuw2jexicbsueff28sxd83'
-    },
-    { 
       title: 'Master Gorgeous UI Design Course',  
       price: '$99', 
       rating: '4.5 (27)', 
@@ -52,6 +44,14 @@ export default function Home() {
       imageSrc: 'https://public-files.gumroad.com/2q337orckvasimnpelz8akhuwn38',
       creatorName: 'Amrit Pal Singh',
       profileImage: 'https://public-files.gumroad.com/xorttvwuneulqbwku9a5jww9315s'
+    },
+    { 
+      title: 'Shirou Ogami Savage Ver. 3D Print kit', 
+      price: '$30+', 
+      rating: '5.0 (6)', 
+      imageSrc: 'https://public-files.gumroad.com/6ks36p1c91akidmh7m5xsutb31ug',
+      creatorName: 'Manuel De Jorge',
+      profileImage: 'https://public-files.gumroad.com/jl59qzeuw2jexicbsueff28sxd83'
     },
   ];
 
